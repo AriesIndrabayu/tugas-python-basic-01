@@ -6,7 +6,7 @@
 
 Buatlah sebuah REST API sederhana untuk mengelola data buku menggunakan FastAPI. API ini harus bisa melakukan operasi dasar seperti tambah, ambil, ubah, dan hapus data buku.
 
-### Struktur Data Buku
+### Struktur Data Buku [Jika ditambahkan lagi fieldnya akan mendapat tambahan point]
 
 | Kolom          | Tipe Data |
 | -------------- | --------- |
@@ -31,13 +31,12 @@ Buatlah sebuah REST API sederhana untuk mengelola data buku menggunakan FastAPI.
 
 ### Nilai Plus jika:
 
-✔️ Tambahkan fitur **soft delete**, **restore**, **force delete** (gunakan kolom `deleted_at`).
-✔️ Tambahkan fitur **pagination** → pada ambil semua data buku.
-✔️ Tambahkan fitur pencarian buku berdasarkan:
-
-- `judul`
-- `penulis`
-- `tahun_terbit`
+1. Tambahkan fitur **soft delete**, **restore**, **force delete** (gunakan kolom `deleted_at`).
+2. Tambahkan fitur **pagination** → pada ambil semua data buku.
+3. Tambahkan fitur pencarian buku berdasarkan:
+   - `judul`
+   - `penulis`
+   - `tahun_terbit`
 
 ---
 

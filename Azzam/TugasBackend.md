@@ -6,7 +6,7 @@
 
 Buatlah REST API untuk mencatat dan mengelola tugas harian. Setiap tugas memiliki status dan tanggal deadline.
 
-### Struktur Data Tugas
+### Struktur Data Tugas [Jika ditambahkan lagi fieldnya akan mendapat tambahan point]
 
 | Kolom              | Tipe Data                               |
 | ------------------ | --------------------------------------- |
@@ -31,12 +31,11 @@ Buatlah REST API untuk mencatat dan mengelola tugas harian. Setiap tugas memilik
 
 ### Nilai Plus jika:
 
-✔️ Tambahkan fitur **soft delete**, **restore**, **force delete** (gunakan kolom `deleted_at`).
-✔️ Tambahkan fitur **pagination** → pada ambil semua data buku.
-✔️ Tambahkan fitur pencarian tugas berdasarkan:
-
-- `status`
-- `tanggal_deadline` (misalnya: tampilkan semua tugas yang deadline-nya hari ini)
+1. Tambahkan fitur **soft delete**, **restore**, **force delete** (gunakan kolom `deleted_at`).
+2. Tambahkan fitur **pagination** → pada ambil semua data buku.
+3. Tambahkan fitur pencarian tugas berdasarkan:
+   - `status`
+   - `tanggal_deadline` (misalnya: tampilkan semua tugas yang deadline-nya hari ini)
 
 ---
 
